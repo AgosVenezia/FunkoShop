@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home| Funkoshop</title>
+    <link href="../CSS/index.css" rel="stylesheet"/> 
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar container">
+        <picture class="navbar__logo">
+          <a href="./index.html">
+            <img src="../img/branding/logo_light_horizontal.svg" alt="Logo" />
+          </a>
+        </picture>
+        <ul class="navbar__menu">
+          <li class="navbar__item with-submenu">
+            <a class="navbar__link with-icon" href="../Tienda/shop.html">SHOP <iconify-icon
+                icon="system-uicons:chevron-down"></iconify-icon></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Funkos</a>
+              </li>
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Remera</a>
+              </li>
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Llaveros</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="../Tienda/">CONTACTO</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="../Admin/login.html">LOGIN</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__cart" href="../Tienda/carrito.html">
+              <img src="../img/icons/cart-icon.svg" alt="carrito">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div> 
+        <form>
+         <div>
+          <p>BUSCAR</p>
+          <input name="busqueda" type="text" placeholder="item"/>
+        </div>
+        
+        <div>
+          <p>ORDENAR POR </p>
+          
+          <select name="orden" aria-placeholder="Mayor a menor">
+            </div>
+            <option value="">seleccione</option>
+            <option  value="1">STORMTROOPER</option>
+            <option value="2">PIDGEOTTO</option>
+            <option value="3">LUNA</option>
+            
+
+          </select>
+
+         <div>
+          <p>PRECIO</p>
+          <p>Min</p>
+          <input name="precios" type="number" placeholder="0"/>
+
+          <p>Max</p>
+          <input name="precios" type="number" placeholder="0"/>
+          </div>
+
+          <div>
+            <p>FILTRAR</p>
+            <input type="checkbox"  name="filter" value="Nuevos">
+           <label> Nuevos</label><br>
+           <input type="checkbox"  name="filter" value="Ofertas">
+           <label"> Ofertas</label><br>
+           <input type="checkbox"  name="filter" value="Edicion Especial">
+           <label for="vehicle3"> Edicion Especial</label><br>
+           <input type="checkbox" name="filter" value="Favoritos">
+           <label for="vehicle3"> Favoritos</label><br>
+
+          </div>
+
+        </form>
+          
+
+        </div>
+        
+        
+        
+            
+        
+        
+      </section>
+
+      <section>
+        <article>
+          <p>NUEVO</p>
+          <p>STAR WARS & THE MANDALORIAN</p>
+          <h3>STORMTROOPER LIGHTSABER</h3>
+          <p>$1799,99</p>
+          <p>3 cuotas sin intereses</p>
+          <img src="../img/star-wars/trooper-1.webp" alt="Storm"/>
+          
+        </article>
+        
+        <article>
+          <p>NUEVO</p>
+          <p>POKEMON</p>
+          <h3>PIDGEOTTO</h3>
+          <p>$1799,99</p>
+          <p>3 cuotas sin intereses</p>
+          <img src="../img/pokemon/pidgeotto-1.webp" alt="Pidge"/>
+          
+        </article>
+
+        <article>
+          <p>NUEVO</p>
+          <p>HARRY POTTER</p>
+          <h3>LUNA LOVEGOO LION MASK</h3>
+          <p>$1799,99</p>
+          <p>3 cuotas sin intereses</p>
+          <img src="../img/harry-potter/luna-1.webp" alt="Luna"/>
+          
+        </article>
+   
+   <div>
+    <ul>
+      <li>
+        <img src="../img/icons/arrow-left-solid.svg" width="15px" alt="izquierda"/>
+      </li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>...</li>
+    <img src="../img/icons/arrow-right-solid.svg" width="15px" alt="derecha"/>
+    </ul>
+   </div>
+
+      </section>
+
+   
+
+   
+   
+    </main>
+    <footer class="footer">
+      <nav class="navbar container">
+        <ul class="navbar__item">
+          <li class="navbar__item">
+            <a class="navbar__link" href="./challenge-integrador/Tienda/shop.html">SHOP</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./challenge-integrador/Admin/register.html">REGISTRATION</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./challenge-integrador/Admin/login.html">LOGIN</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./challenge-integrador/Admin/">CONTACTO</a>
+          </li>
+        </ul>
+        <picture>
+          <img src="../img/branding/isotype.svg" alt="logo">
+        </picture>
+      </nav>
+      <p class="footer__copy">All rights reserved 2023 - Funkoshop</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  </body>
+</html>
