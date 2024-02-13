@@ -47,18 +47,40 @@
 
   <main>
 
-    <h1>Crea tu cuenta</h1>
-    <p>Completa el formulario para ser parte del mundo de los Funkos</p>
-    <ul>
-      <li>Nombre</li>
-      <li>Apellidp</li>
-      <li>Email</li>
-      <li>Contraseña</li>
-      <li>Repita Contraseña</li>
-    </ul>
-    <button>Regristrese</button>
-    <input type="checkbox" name="Acepto" >
-
+    <section class="registro">
+      <div class="registro__container">
+        <h1>Crea tu cuenta</h1>
+        <p>Completa el formulario para ser parte del mundo de los Funkos</p>
+        <form action="">
+          <div class="registro-inputs-container">
+            <label for="Nombre">Nombre:</label>
+            <input type="text"></input>
+          </div>
+          <div class="registro-inputs-container">
+            <label for="Apellido">Apellido:</label>
+            <input type="text"></input>
+          </div>
+          <div class="registro-inputs-container">
+            <label for="Email">Email:</label>
+            <input type="email"></input>
+          </div>
+          <div class="registro-inputs-container">
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password"></input>
+          </div>
+          <div class="registro-inputs-container">
+            <label for="Repetir">Repita contraseña:</label>
+            <input type="password"></input>
+          </div>
+          <div class="registro-inputs-container-ingresar">
+            <input type="submit" value="Regístrese" ></input>
+            <input type="checkbox" name="acepto" id="acepto">
+            <label for="acepto">Acepto</label>
+          </div>
+        </form>
+      </div>
+    </section>
+   
   </main>
 
   <footer class="footer">
