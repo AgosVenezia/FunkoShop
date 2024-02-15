@@ -45,6 +45,7 @@
     --spacing-12:1.2rem;
     --spacing-8:0.8rem;
     }
+    
 .item_container {
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
